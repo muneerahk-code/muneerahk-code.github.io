@@ -1,0 +1,110 @@
+<html>
+ <head>
+
+<title></title>
+<link rel= "stylesheet" href="Stylesheet.css">
+<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-database.js"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+</head>
+
+<body>
+
+  <div id="landing">
+    <nav>
+      <ul>
+        <li>
+          <a href="#home">Home </a>
+        </li>
+        <li>
+          <a href="#aboutme">About me </a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contactme">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div id="home" class="hero-section">
+    <div class="title">
+      <h1>Muneerah Kamaldien</h1>
+      <h3>Aspiring Web developer</h3>
+
+      <h4>"One cannot build a house without a foundation"</h4>
+    </div>
+  </div>
+
+
+  <div id="aboutme">
+    <div class="grey">
+      <h2>About Me </h2>
+      <img src="image.jpg" width="250px" height="350px" alt="profile picture">
+    
+  
+      <p class="about">
+        Hi I am Muneerah Kamaldien a 22 year old aspiring Web developer. I love learning new things and being creative. I see myself as a hardworking individual who is also very determined. I am currently doing an internship at Younglings to sharpen my skills.  
+      </p>
+      <label class="me" for="html">HTML</label>
+      <progress class="me" name="html" max="100" value="50"></progress>
+      <br>
+      <label class="me" for="css">CSS</label>
+      <progress class="me" name="css" max="100" value="50"></progress>
+      <br>
+      <label class="me" for="javascript">Javascript</label>
+      <progress name="javascript" max="100" value="50"></progress>
+    </div>
+  </div>
+
+  
+  <div id="projects">
+    <h2>Projects</h2>
+
+    <a href="project1.html"><img src="project1image.png" width=500px height=400px alt="website image"></a>
+    <h5>Project Title:Personal Blog</h5>
+    <p>Description:Created a personal blog for a client that manages blog content and user's messages/queries.</p>
+  </div>
+  
+  <div id="contactme">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+    <label for ="name">Name and Surname:</label>
+    <br>
+    <input type="name" name="name" class="name" id="name" required>
+    <br>
+    <label for ="email">Email Address: </label>
+    <br>
+    <input type="email" name="email" class="email" id="email" required>
+    <br>
+    <label for ="message">Your Message: </label>
+    <br>
+    <textarea rows="8" name="message" class="message" id="message" required></textarea>
+    <br>
+    <br>
+    <input type="submit" name="Submit" id="submit" disabled>
+    </form>
+  </div>
+
+
+  <footer>
+  
+    <a href="http://www.twitter.com"><img src="twitter.png" alt="twitter"> </a>
+    <a href="http:www.facebook.com"><img src="facebook.png" alt="facebook"> </a>
+    <a href="http:www.instagram.com"> <img src="insta.jpg" alt="insta"> </a>
+  </footer >
+
+
+  <div class="g-recaptcha"
+      data-sitekey="6LflhLAUAAAAAF_0oiDcbBQwCS_sFYpvSFokR4LE"
+      data-callback="dataCallback">
+ </div>
+
+ <script src="main.js"></script>
+</body>
+</html>

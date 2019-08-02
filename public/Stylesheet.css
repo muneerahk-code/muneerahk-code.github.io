@@ -1,0 +1,191 @@
+html{
+margin: 0px;
+padding: 0px;
+}
+
+body {
+  text-align:center;
+  color:#F4E4C1;
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.title{
+  padding: 30px;
+}
+
+.hero-section {
+  height: 100vh;
+  width: 100%;
+  background: url('imag4.jpg');
+
+}
+.hero-section h4 {
+  color: #004377;
+  font-size: 2rem;
+  text-shadow: 0px 10px 15px white;
+
+}
+.hero-section h3 {
+  color: #fff;
+  font-size: 3rem;
+
+}
+
+#aboutme {
+  height: 100vh;
+  background: url('picture4.jpeg');
+  background-position: center;
+  background-size: cover;
+  /* color: ; */
+  padding-top: 100px;
+
+}
+
+.grey {
+  background-color: rgba(128, 128, 128, 0.8);
+  margin-left: 100px;
+  margin-right: 100px;
+
+
+}
+
+#projects {
+  height: 100vh;
+  background: url("sunset2.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+
+div#projects p {
+  font-size: 30px;
+}
+
+div#projects h5 {
+  font-size: 40px;
+}
+
+#contactme{
+  height: 100vh;
+  background-image: url("picture5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+h1 {
+  font-size: 150px;
+  text-align:center;
+
+    color: #15DB95;
+}
+
+h2 {
+  color: #15DB95;
+margin: 0px;
+padding: 25px;
+font-size: 3em;
+}
+footer {
+  height: 80px;
+  background: white;
+}
+
+footer a {
+  padding: 15px
+}
+
+
+h4{
+  text-align:center;
+  color: #E4C580;
+  font-size: 2em;
+}
+
+nav{
+  z-index : 100;
+  position: fixed;
+  font-size: 20px;
+  color: #7FFFD4;
+  }
+
+nav ul li a{
+  color: #fff;
+  font-size: 25px;
+}
+
+li  {
+  list-style: none;
+  display: inline;
+  text-align: center;
+  color: black;
+}
+
+a{
+  text-align: center;
+  color: #0D19A3;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+
+}
+
+img {
+  align:left;
+
+}
+
+
+#landing {
+  text-align: center;
+
+}
+.x{
+    padding:14em 10px 12em 10px;
+}
+label.me {
+
+}
+
+#projects {
+  background-color: #BDC696;
+  height:100%;
+}
+
+footer{
+  max-width:100%;
+  background-color: black;
+}
+
+#contactme{
+  height:100vh;
+}
+
+input, textarea{
+  width:25%;
+
+}
+
+input[type='submit'] {
+  max-width:80px;
+}
+
+div#projects img {
+  border-style: solid;
+  border-color: white;
+}
+
+#submit {
+  cursor: not-allowed;
+}
+
+#submit.open {
+  cursor: pointer;
+}
